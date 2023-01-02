@@ -66,3 +66,14 @@ p {
     top: 70%;
     left: 6%;
 }
+
+#wall {
+    width: 3vw;
+    height: 6vh;
+    background-color: rgb(9,0,136);
+    border: 2px solid rgb(3,0,46);
+    position: relative;
+    border-radius: 10%;
+    top: 52%;
+    left: 89%;
+}
