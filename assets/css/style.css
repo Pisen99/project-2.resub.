@@ -147,3 +147,16 @@ footer {
     box-shadow: -1px 0px 20px 18px rgb(164,219,232);
     z-index: 1;
 }
+
+.heading-button {
+    margin: 2rem;
+    font-size: 2rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: rgb(164,219,232);
+}
+
+.rules-list {
+    list-style: none;
+}
