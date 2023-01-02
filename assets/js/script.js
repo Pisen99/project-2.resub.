@@ -29,15 +29,18 @@ function jump() {
 const hitWall = setInterval(function(){
     let dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue("top"));
     let wallLeft = parseInt(window.getComputedStyle(wall).getPropertyValue("left"));
+    let timer = document.getElementById("milli-seconds")
     if(wallLeft <83 && wallLeft >0 && dinoTop >= 175) {
         wall.style.animation = "none";
         wall.style.display = "none";
+        alert("You lost! :(");
+        timer.innerHTML = "0";
     }
 }, 10);
 /* ------------------------------------------------------ Inpspiration from "KnifeCircus" ends here. */
 
 /* ------------------------------------------------------ Game score */
-/* Creating a "Score" function that will show user how long they've been in the game. */
+/* Creating a "score" function that will show user how long they've been in the game. */
 window.setInterval((function(){
     const start = Date.now();
     const textNode = document.createTextNode('0');
