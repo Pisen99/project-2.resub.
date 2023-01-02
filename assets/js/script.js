@@ -21,7 +21,7 @@ function jump() {
         dino.classList.add("animation");
     }
     setTimeout(function(){
-        dino.classList.remove("animation")
+        dino.classList.remove("animation");
     }, 500)
 }
 /* ------------------------------------------------------ If the blocks (dino, wall) hit each other */

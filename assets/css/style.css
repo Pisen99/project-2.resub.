@@ -166,7 +166,7 @@ footer {
 }
 
 /* -------------------------------------------------- Styling start game button */
-.start-game-button {
+#start-game-button {
     margin: 2rem;
     font-size: 5rem;
     border: none;
