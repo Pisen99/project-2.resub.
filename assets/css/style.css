@@ -54,3 +54,15 @@ p {
     border: 5px solid rgb(40, 40, 43);
     background-color: rgb(164,219,232);
 }
+
+/* --------------------------------------------------Styling dino (Player) and walls */
+#dino {
+    width: 3vw;
+    height: 10vh;
+    background-color: rgb(0,124,223);
+    border: 2px solid rgb(3,82,179);
+    position: relative;
+    border-radius: 10%;
+    top: 70%;
+    left: 6%;
+}
