@@ -146,7 +146,7 @@ footer {
     background: rgb(40, 40, 43);
     border: 5px solid rgb(40, 40, 43);
     box-shadow: -1px 0px 20px 18px rgb(164,219,232);
-    z-index: 1;
+    z-index: 2;
 }
 
 .heading-button {

@@ -1,6 +1,6 @@
 /* ------------------------------------------------------ Start game */
 function startGame() {
-    const btn = document.getElementById('start-game-button')
+    const btn = document.getElementById('start-game-button');
     btn.style.display = 'none';
     document.getElementById("wall").style.WebkitAnimationPlayState = "running";
 /* ------------------------------------------------------ Game score */
