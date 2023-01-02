@@ -12,3 +12,25 @@ body {
     align-items: center;
     text-align: center;
 }
+
+/* --------------------------------------------------Styling h1 (Logo), h2 & paragraphs */
+h1 {
+    font-size: 4rem;
+    letter-spacing: 2rem;
+    text-transform: uppercase;
+
+    font-family: 'Hanalei Fill', cursive;
+}
+
+h2 {
+    font-size: 1rem;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+}
+
+p {
+    margin-top: 6rem;
+    font-size: 1rem;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+}
