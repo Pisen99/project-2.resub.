@@ -14,6 +14,25 @@
         <h1>Dino Game</h1>
         <button onclick="popupContainer()" id="rules"><i class="fa-solid fa-book-open"></i></button>
     </Header>
+    <!-- Rules pop-up box -->
+    <div id="rules-container">
+        <h3 class="heading-button">How to play</h3>
+            <ul class="rules-list">
+                <li>
+                    Your goal is to jump over the black wall sliding towards you.
+                </li>
+                <li>
+                    Jump by pressing the jump button.
+                </li>
+                <li>
+                    A score will keep count on how many walls you've jumped over.
+                </li>
+                <li>
+                    Game over when a wall is hit.
+                </li>
+            </ul>
+        <button class="heading-button" id="return" onclick="popupContainerClose()" aria-label="Close rules"><i class="fa-regular fa-circle-xmark"></i></button>
+    </div>
     <!-- Game board for dino & the walls -->
     <div id="game-board">
         <div id="dino"></div>
