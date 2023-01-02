@@ -6,4 +6,9 @@ body {
     background-attachment: fixed;
     font-family: 'Mukta', sans-serif;
     color: rgb(164,219,232);
+/* --------------------------------------------------Positioning the website */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
