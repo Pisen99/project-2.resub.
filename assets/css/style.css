@@ -67,6 +67,17 @@ p {
     left: 6%;
 }
 
+.animation {
+    animation: jump 500ms infinite;
+}
+
+@keyframes jump {
+    0% {top: 13rem;}
+    30% {top: 4rem;}
+    70% {top: 4rem;}
+    100% {top: 13rem;}
+}
+
 #wall {
     width: 3vw;
     height: 6vh;
@@ -76,6 +87,12 @@ p {
     border-radius: 10%;
     top: 52%;
     left: 89%;
+    animation: wall 1s infinite linear;
+}
+
+@keyframes wall {
+    0% {left: 35rem;}
+    100% {left: -.3rem;}
 }
 
 /* --------------------------------------------------Styling jump-button */
