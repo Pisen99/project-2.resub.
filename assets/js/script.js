@@ -33,7 +33,7 @@ const hitWall = setInterval(function(){
     if(wallLeft <83 && wallLeft >0 && dinoTop >= 175) {
         wall.style.animation = "none";
         wall.style.display = "none";
-        alert("You lost! :(");
+        alert("You lost! :( ");
         timer.innerHTML = "0";
     }
 }, 10);
