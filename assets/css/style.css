@@ -34,3 +34,13 @@ p {
     letter-spacing: .5rem;
     text-transform: uppercase;
 }
+
+/* --------------------------------------------------Styling rules button */
+#rules {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: rgb(164,219,232);
+}
