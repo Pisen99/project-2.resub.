@@ -77,3 +77,27 @@ p {
     top: 52%;
     left: 89%;
 }
+
+/* --------------------------------------------------Styling jump-button */
+#center-button {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#jump-button {
+    height: 4vh;
+    width: 20vw;
+
+    font-family: 'Mukta', sans-serif;
+    font-size: 1rem;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    background-color: rgb(164,219,232);
+    border: 2px solid rgb(40, 40, 43);
+    color: rgb(40, 40, 43);
+}
