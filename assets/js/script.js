@@ -1,3 +1,20 @@
+/* ------------------------------------------------------ Start game */
+function startGame() {
+    const btn = document.getElementById('start-game-button')
+    btn.style.display = 'none';
+    document.getElementById("wall").style.WebkitAnimationPlayState = "running";
+/* ------------------------------------------------------ Game score */
+/* Creating a "score" function that will show user how long they've been in the game. */
+    window.setInterval((function(){
+        const start = Date.now();
+        const textNode = document.createTextNode('0');
+        document.getElementById('milli-seconds').appendChild(textNode);
+        return function() {
+             textNode.data = Math.floor((Date.now()-start)/100);
+             };
+        }()), 100);
+}
+
 /* ------------------------------------------------------ Rules popup */
 const rulesPopUp = document.getElementById('rules-container');
 
@@ -38,14 +55,3 @@ const hitWall = setInterval(function(){
     }
 }, 10);
 /* ------------------------------------------------------ Inpspiration from "KnifeCircus" ends here. */
-
-/* ------------------------------------------------------ Game score */
-/* Creating a "score" function that will show user how long they've been in the game. */
-window.setInterval((function(){
-    const start = Date.now();
-    const textNode = document.createTextNode('0');
-    document.getElementById('milli-seconds').appendChild(textNode);
-    return function() {
-         textNode.data = Math.floor((Date.now()-start)/100);
-         };
-    }()), 100);
