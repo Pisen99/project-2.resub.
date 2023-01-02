@@ -44,3 +44,13 @@ p {
     background: transparent;
     color: rgb(164,219,232);
 }
+
+/* --------------------------------------------------Game board frame size */
+#game-board {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: 35vh;
+    border: 5px solid rgb(40, 40, 43);
+    background-color: rgb(164,219,232);
+}
