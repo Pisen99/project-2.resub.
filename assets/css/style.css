@@ -118,3 +118,9 @@ p {
     border: 2px solid rgb(40, 40, 43);
     color: rgb(40, 40, 43);
 }
+
+/* --------------------------------------------------Styling footer */
+footer {
+    margin-top: -1rem;
+    font-family: 'Hanalei Fill', cursive;
+}
