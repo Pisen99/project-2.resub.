@@ -1,1 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Mukta:wght@300&display=swap');
+
+/* --------------------------------------------------Styling background image */
+body {
+    background-image: url(../images/background.webp);
+    background-attachment: fixed;
+    font-family: 'Mukta', sans-serif;
+    color: rgb(164,219,232);
+}
