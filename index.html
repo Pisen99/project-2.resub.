@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ff7463a330.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Logo & Pop-Up rules button -->
+    <Header>
+        <h1>Dino Game</h1>
+        <button onclick="popupContainer()" id="rules"><i class="fa-solid fa-book-open"></i></button>
+    </Header>
+    <!-- Game board for dino & the walls -->
+    <div id="game-board">
+        <div id="dino"></div>
+        <div id="wall"></div>
+    </div>
+    <div id="center-button">
+        <button id="jump-button" onclick="jump()">Press To Jump</button>
+    </div>
+    <!-- Game score -->
+    <section>
+        <div>
+            <h2>Your score</h2>
+            <span id="milli-seconds"> </span>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>- Patricia Flintzberg 2022 -</p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
