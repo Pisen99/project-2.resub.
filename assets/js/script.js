@@ -3,6 +3,8 @@ function startGame() {
     const btn = document.getElementById('start-game-button');
     btn.style.display = 'none';
     document.getElementById("wall").style.WebkitAnimationPlayState = "running";
+
+
 /* ------------------------------------------------------ Game score */
 /* Creating a "score" function that will show user how long they've been in the game. */
     window.setInterval((function(){
@@ -14,6 +16,7 @@ function startGame() {
              };
         }()), 100);
 }
+
 
 /* ------------------------------------------------------ Rules popup */
 const rulesPopUp = document.getElementById('rules-container');
@@ -31,6 +34,7 @@ function popupContainerClose() {
 const dino = document.getElementById("dino");
 const wall = document.getElementById("wall");
 
+
 /* ------------------------------------------------------ Jump-button */
 /* Creating a function that will make "dino" jump everytime button is pressed */
 function jump() {
@@ -41,6 +45,8 @@ function jump() {
         dino.classList.remove("animation");
     }, 500)
 }
+
+
 /* ------------------------------------------------------ If the blocks (dino, wall) hit each other */
 /* Creating a function when player hits the "wall" with "dino", player lose */
 const hitWall = setInterval(function(){

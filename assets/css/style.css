@@ -89,6 +89,7 @@ p {
     left: 89%;
     animation: wall 1s infinite linear;
     -webkit-animation-play-state: paused;
+    animation-delay: 1s;
 }
 
 @keyframes wall {
